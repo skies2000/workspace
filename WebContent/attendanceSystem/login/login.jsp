@@ -121,7 +121,7 @@ margin-left:930px;
 
 <div id=main>
 	<form name='frm' method='post' >
-
+aabbccdd
 		<input type=text name=id id=id value=ID onclick="reset1()"><br/>
 		<input type="password" name=pwd id=pwd  onkeydown="keycheck(this)" onclick="reset2()"><br/>
 		<a href='#' id=join>JOIN</a> 
