@@ -1,0 +1,109 @@
+@CHARSET "UTF-8";
+	/* 인포 영역*/
+	#chulInfo{
+	height: 50%;
+	width: 50%;
+	 margin-left: 20%;
+	}
+	
+	/* 스케쥴 영역*/
+	#mainSchedule{
+	height: 50%;
+	width: 50%;
+	 margin-left: 20%;
+	}
+	
+	/* 캘린더 영역*/
+	#calender{
+		height: 100%;
+		float: right;
+		width: 30%;
+		margin-left: 50%;
+	}
+
+	
+	
+
+#leftmenu{
+	margin-top: 19.92px;
+	width: 20%;
+	float: left;
+	height: 100%;
+	}
+	 #att, #msch{ /* 출결사항 & 주요일정 */
+   border: 1px solid #83B14E;
+   background-color: #83B14E;
+   border-radius: 10px;
+   box-shadow: 2px 3px #eeeeee;
+   box-sizing:border-box;
+   width: 200px;
+   height:45px;
+   color: #ffffff;
+   font-size: 16pt;
+   font-weight:bold;
+   float: left;
+   padding-top:5px; 
+   margin-bottom:5px;
+   }
+   
+   
+   
+    
+    #att>select, #msch>select{ /* 타이틀 조절 위치조절 */
+    position: absolute;
+    margin-top:2px;
+     width:60px;
+     height:30px;
+     margin-left: -10px;
+  }
+  #table{ /* 각 테이블 전체 위치 조정 */
+     position: absolute;
+  	 margin-top: 5px;
+     margin-left: 30px;
+  }
+   .title, .cuhltitlelist{ /* 타이틀 및 기본 리스트 테이블 스타일 지정 */ 
+   width:60px;   height:30px;
+   background-color:#e2e2e2;
+   font-size: 10pt;
+   font-weight:bold;
+   font-family:arial;
+   text-align:center;
+   border-right: #888888 1px solid;
+    border-left: #888888 1px solid;
+    border-top: #888888 1px solid;
+    border-bottom: #888888 1px solid;
+    margin-top:3px;
+}
+#table_t, #table_t2{
+	margin-top: 70px;	
+}
+#title1{ 
+   width:120px;
+}
+#list1{ /* 1, 3번 테이블 칼럼 스타일 */
+   font-weight:normal;
+}
+#list2{ /* 4, 5번 테이블 칼럼 스타일 */
+   font-weight:normal;
+   background-color:#ffffff;
+}
+#list3{ /* 2번 테이블 칼럼 스타일 */
+   width:120px;
+   font-weight:normal;
+}
+#list4{ /* 6번 테이블 칼럼 스타일 */
+   width:120px;
+   font-weight:normal;
+   background-color:#ffffff;
+}
+.list11{ /* 주요일정 테이블 리스트 양식 지정 */
+   width:60px;   height:30px;
+   font-size: 10pt;
+   font-family:arial;
+   text-align:center;
+   border-right: #888888 1px solid;
+    border-left: #888888 1px solid;
+    border-top: #888888 1px solid;
+    border-bottom: #888888 1px solid;
+    margin-top:3px
+} 

@@ -1,0 +1,117 @@
+@CHARSET "UTF-8";
+#items>span,.list>span{
+		display: inline-block;
+		padding: 3px;
+		box-sizing:border-box;
+		text-align: center;
+	}
+	
+	.serial,.hit{
+		width: 12%;
+	}
+	.mdate{ 
+		width: 30.5%;
+	}
+	.worker,.subject{
+		width: 19%; 
+	}
+	#inputBody{ 
+		height: 380px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#items{
+		background-color: #6FBDD1;
+		border-top: 1px dashed #fff;
+		border-bottom: 1px solid #19373E;
+		
+	}
+	#items, .list{
+		border-left: 1px dashed #fff;
+		border-right: 1px dashed #fff;
+		margin-left:auto;
+	}
+	h2{
+		text-align: center;
+	}
+	.list{
+		background-color: #D4F0F7;
+		border-bottom: 1px dotted #bbb;
+	}
+	#search{
+		float:right;
+	}
+
+	form{ 
+		margin-bottom: 5px;
+		height: 22px;
+	}
+	#input{
+		display: inline-block;
+		text-align: left;
+		
+	}
+
+	#footer{
+ 		margin-top: 5px;
+	}
+	#main{
+		width: 1200px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#main_header{
+		box-shadow: 4px 4px 6px #bbb;
+		height: 100px;
+		
+	}
+	#menu{
+		text-align: right;
+		
+	}
+	a{text-decoration: none;}
+	a{
+		color: #0ee;
+	}
+	#mainTitle{
+		color: #D8806B;
+	}
+	
+	#tri_header{
+		background-image: url(../../images/06-train-cat-shake-hands.jpg);
+		border: 1px solid #bbb;
+		height: 76%;
+		
+	}
+	#center{
+		width: 70%;
+		margin:auto;
+	}
+	#tri_login{
+		height: 24%;
+		text-align: right;
+	}
+	#inputBody{ 
+		height: 380px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+		#viewContent{
+		width: 500px;
+		height: 300px;
+	}
+	#areaList{
+		width: 90%;
+		height: 70%;
+		overflow: auto;
+		border: 1px solid #aaa;
+	}
+	
+	#tri_footer{
+		background-color: #ccc;
+		border: 1px solid #bbb;
+		box-shadow: 4px 4px 6px #bbb;
+		height: 80px;
+	}
+
+	

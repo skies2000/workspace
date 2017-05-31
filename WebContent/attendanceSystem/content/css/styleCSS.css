@@ -1,0 +1,152 @@
+@CHARSET "UTF-8";
+
+
+/* ------------------------------------------------------------------- */
+/*웹페이지 공통 */
+/* ------------------------------------------------------------------- */
+
+/* 
+body			{ margin:0; padding:0; font:12px verdana, gulim; color:#ffffff; background-color:#000000;}
+a:link		{ color:#ffffff; text-decoration:none;}
+a:visited	{ color:#ffffff; text-decoration:none;}
+a:hover		{ color:#80F5FF; font-weight:bold;}
+a:active		{ color:#80F5FF; text-decoration:none;}
+*/
+
+
+/* ------------------------------------------------------------------- */
+/* 각 프레임 출력 영역 */
+/* ------------------------------------------------------------------- */
+
+	/* 모든 프레임을 감싸는 상위 영역*/
+
+	#chulmain{
+	/*
+		border: 1px solid #aaa;
+		box-sizing:border-box;
+	*/
+		height: 600px;
+		width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/* 게시판이 실제 출력되는 영역*/
+	
+	#chulPrint{
+	/* 
+	border: 1px solid #ddaabf;
+	*/
+	box-sizing:border-box;
+	width: 960px;
+	float: left;
+	height: 600px;
+	}
+
+	/* 서브메뉴 영역*/
+	#chulLeft{
+	/*
+	border: 1px solid #abbbbf;
+	box-sizing:border-box;
+	*/
+	margin-top: 19.92px;
+	width: 240px;
+	float: left;
+	height: 600px;
+	}
+	#chulLeft:link{color:white;}
+	#chulLeft:visited{text-decoration: none;}
+	#chulLeft:hover{color:#83b14e; }
+	#chulLeft_text{
+	padding-left: 68px;
+	}
+	
+	.sub{
+		padding: 3px;
+	}
+	
+	
+/* ------------------------------------------------------------------- */
+/* 게시판 */
+/* ------------------------------------------------------------------- */	
+	
+	/* 게시판 상단메뉴:순번,제목 등*/
+	
+	#items>span, .boardlist >span{
+	display: inline-block;
+	margin-left: 5px;
+	line-height: 1.7em;
+	}
+	#boardlist{
+	}
+	#items{
+	width: 100%;
+	background-color: #83b14e;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-align: center;
+	box-sizing: border-box;
+	font-weight: bold;
+	margin-bottom: 8px;	
+	color: #ffffff;
+	}
+	.serial{width: 5%; text-align:center;}
+	.subject{width: 50%; text-align: center;}
+	.worker{width: 13%; text-align: center;}
+	.mdate{width: 18%; text-align: center;}
+	.hit{width: 13%; text-align: center;}
+	
+	/* 게시판 전체 영역*/
+	.form{
+	margin-bottom: 7px;
+	}
+
+	/* 검색*/
+	#find{
+	  text-align: right;
+	}
+	/*검색창 css*/
+	#boardsrcINPT{
+		width:190px;
+		height:21px;
+	}
+	/*검색버튼css*/
+	#boardsrcBTN{
+		width:40px;
+		height:25px;
+	}
+	
+	
+	/*작성*/
+	#write{
+		float:right;
+	}
+
+	/* 게시판 컨텐츠*/
+	#boardContent{
+	/*
+	height:310px;
+	*/
+	text-align: center;
+	margin-bottom: 15px;
+	}
+	 #boardContent a {color: black; text-decoration: none; } 
+	 #boardContent a:hover {color:#99c962; }
+ 	#boardContent a:visited { text-decoration: none; }
+  	#boardContent a:focus { text-decoration: none; }
+	}
+	/* 페이징*/
+	#page{
+	text-align: center;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

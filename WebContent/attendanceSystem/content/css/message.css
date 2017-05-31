@@ -1,0 +1,131 @@
+@CHARSET "UTF-8";
+
+/* ~~~받은 메세지/보낸메세지 ~~ */
+#items{
+background-color: #83b14e;
+padding: 5px;
+box-sizing: border-box;
+box-shadow: 2px 2px 4px #aaaaaa;
+font-weight: bold;
+}
+#items>span, .list>span{
+		display: inline-block;
+		box-sizing:border-box;
+		text-align: center;
+	}
+	
+.list{
+padding-left: 5px;
+padding-right: 5px;
+}
+
+#items>span, .list >span{
+display: inline-block;;
+}
+
+#input1{
+  display: inline-block;
+  float: right;
+}
+	.messageCheck{
+
+		width: 10%;
+	}
+	.serial{
+		width: 10%;
+	}
+	.mdate{ 
+		width: 20%; 
+	}
+	.worker,.subject{
+	
+		width: 20%; 
+	}
+	.msck{
+		width: 10%;
+	}
+
+}
+/* .form{
+margin-bottom: 7px} */
+
+#find{
+  float: right;
+
+}
+h2{
+	text-align: center;
+}
+#delbtn{
+	margin-left: 7%; 
+}
+#uppermenu{
+   /*
+   background-color: #eff9e3;
+   */
+   width:90%;
+   height: 30px;
+   margin-top: 5px;
+   display:block;
+   
+   
+}
+
+#delbtn{
+margin-left:890px;
+
+}
+a {text-decoration: none;}
+
+input[type=button]{
+width:50px;
+
+}
+
+ 	#page{  
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+} 
+
+/* 세세하게 안맞는 부분 */
+
+#all_ckBox{
+
+	margin-right:15px;
+	
+}
+#ssubject{
+
+	margin-right:128px;
+	
+}
+#sserial{
+	
+	margin-left:45px;
+	
+}
+#gckbox{
+
+	margin-right:15px;
+	
+}
+/* board_get_message_list */
+#msCkBox{
+
+}
+#gserial{
+	
+	margin-left:45px;
+	
+}
+#gdate{
+	margin-right:5px;
+	
+}
+#gworker{
+	
+	margin-right:8px;
+}
+/* ~~~~~~~~~`메세지 상세보기~~~~~*/
+
