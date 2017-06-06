@@ -111,7 +111,7 @@ margin-left:930px;
 
 } 
  
-}
+} 
 </style>
 </head>
 <body id = loginBody>
@@ -128,6 +128,7 @@ margin-left:930px;
 		<a href='#' id=login>LOGIN</a> 
 	</form>
 </div>
+git test
 	
 
 <script>start();</script>
